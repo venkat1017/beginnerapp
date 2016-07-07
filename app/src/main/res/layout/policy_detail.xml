@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_policy_name"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:hint="policyName"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_policy_type"
+        android:layout_below="@+id/txt_policy_name"
+        android:layout_alignRight="@+id/txt_policy_name"
+        android:layout_alignEnd="@+id/txt_policy_name"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:hint="policyType"
+        android:layout_weight="1" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_product_name"
+        android:layout_below="@+id/txt_policy_type"
+        android:layout_alignRight="@+id/txt_policy_type"
+        android:layout_alignEnd="@+id/txt_policy_type"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:hint="productname"
+        android:layout_weight="1" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_cover_type"
+        android:layout_gravity="center_vertical"
+        android:layout_below="@+id/txt_product_name"
+        android:layout_alignRight="@+id/txt_product_name"
+        android:layout_alignEnd="@+id/txt_product_name"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:hint="covertype"
+        android:layout_weight="1" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_start_date"
+        android:layout_gravity="center_vertical"
+        android:layout_below="@+id/txt_cover_type"
+        android:layout_alignRight="@+id/txt_cover_type"
+        android:layout_alignEnd="@+id/txt_cover_type"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:hint="start_date"
+        android:layout_weight="1" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_due_date"
+        android:layout_gravity="center_vertical"
+        android:layout_below="@+id/txt_start_date"
+        android:layout_alignRight="@+id/txt_start_date"
+        android:layout_alignEnd="@+id/txt_start_date"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_weight="1"
+        android:hint="due_date"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_premium"
+        android:layout_gravity="center_vertical"
+        android:layout_below="@+id/txt_due_date"
+        android:layout_alignRight="@+id/txt_due_date"
+        android:layout_alignEnd="@+id/txt_due_date"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_weight="1"
+        android:hint="premium"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show"
+        android:id="@+id/btn_show"
+        android:layout_below="@+id/txt_premium"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
