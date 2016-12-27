@@ -1,6 +1,6 @@
 # beginnerapp
 
-The Source code contains a very basic app devloped
+The Repo contains a very basic app developed as a part of android course
 
 * This will teach 
 * How to work with Sqllite
